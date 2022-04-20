@@ -31,7 +31,7 @@ function timeToString(time){
 }
 function StopWatch(){
     if(active){
-        console.log(Date.now());
+        console.log(Date.now());// no of mili seonds passed from 1 january 1970
         startTime = Date.now() - elapsedTime
 
         stopWatchInterval = setInterval(function printTime(){
